@@ -39,10 +39,9 @@ Training an object detection model like YOLOv8 involves several steps to achieve
 
 1. Model Architecture: The model utilized for validation is YOLOv8, with a fused architecture containing 168 layers and a total of 3,005,843 parameters.
 2. Validation Metrics:
-
-Class Accuracy: The model achieved an overall class accuracy of 0.908. This metric indicates the proportion of correctly predicted classes in the validation dataset.
-Recall (R@0.861): The recall at a confidence threshold of 0.861 was calculated as 0.915. Recall measures the proportion of true positive instances captured by the model.
-mAP50: The mean average precision at IoU threshold 0.50 (mAP50) was recorded as 0.491. mAP measures the model's accuracy in predicting bounding box positions.
-mAP50-95: The model achieved 100% mAP at IoU thresholds ranging from 0.50 to 0.95, indicating strong performance across various levels of precision.
+  * Class Accuracy: The model achieved an overall class accuracy of 0.908. This metric indicates the proportion of correctly predicted classes in the validation dataset.
+  * Recall (R@0.861): The recall at a confidence threshold of 0.861 was calculated as 0.915. Recall measures the proportion of true positive instances captured by the model.
+  * mAP50: The mean average precision at IoU threshold 0.50 (mAP50) was recorded as 0.491. mAP measures the model's accuracy in predicting bounding box positions.
+  * mAP50-95: The model achieved 100% mAP at IoU thresholds ranging from 0.50 to 0.95, indicating strong performance across various levels of precision.
 
 
